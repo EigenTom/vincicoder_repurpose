@@ -1,0 +1,5 @@
+# Load balancer only (vLLM and Python env are assumed to exist elsewhere)
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+httpx>=0.24.0
+vllm
